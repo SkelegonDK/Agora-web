@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Group 7 - Mikkel Madsen, Henrik Herland Boelsmand and Manuel Sotomayor Thomsen.
+
+# THANKS
+
+    To all from Group 7
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3,
+    Jquery, JS, History API,
+    PHP, htaccess

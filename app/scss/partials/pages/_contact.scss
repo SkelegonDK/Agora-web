@@ -1,0 +1,16 @@
+.contact-page-icon-info {
+    display: flex;
+    align-items: center;
+    width: 255px;
+    font-size: 22px;
+}
+
+.contact-page-icon-info:first-of-type {
+    margin-right: 60px;
+}
+
+.contact-page-icon-info > i {
+    margin-right: 10px;
+    font-size: 40px;
+    color: #1c6379;
+}

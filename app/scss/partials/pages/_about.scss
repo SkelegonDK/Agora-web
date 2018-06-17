@@ -1,0 +1,43 @@
+.about-banner {
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.person-desc-grid {
+    padding: 0 10px;
+}
+
+.person-desc-grid .col {
+    padding: 0;
+}
+
+.person-desc-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media(min-width: 601px) {
+    .person-desc-wrap {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+.person-desc {
+    text-align: center;
+    padding: 0 20px;
+}
+
+@media(max-width: 601px) {
+    .profile-pic {
+        max-width: 360px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        order: -1;
+    }
+}
+
+.meet-the-team {
+    margin-bottom: 55px;
+}

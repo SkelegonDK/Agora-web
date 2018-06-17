@@ -1,0 +1,122 @@
+.admin-container  {
+    position: relative;
+    min-height: 500px;
+}
+
+.admin-menu-shade {
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    transition: .25s;
+}
+
+.animate-admin-shade {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+@media(min-width: 601px) {
+    .admin-menu-shade {
+        top: 68px;
+    }
+}
+
+.admin-menu {
+    position: absolute;
+    top: 0;
+    width: 140px;
+    min-height: 500px;
+    padding-left: 15px;
+    padding-right: 20px;
+    transform: translateX(-100%);
+    background: #1c6379;
+    transition: .25s;
+    z-index: 2;
+}
+
+.animate-admin-menu { transform: translateX(0); }
+
+.admin-menu-btn {
+    position: absolute;
+    right: -34px;
+    padding: 5px;
+    color: #fff;
+    background: #1c6379;
+    cursor: pointer;
+}
+
+.admin-menu-list { margin-top: 30px; }
+
+.admin-menu a {
+    position: relative;
+    display: block;
+    font-weight: 500;
+    padding: 10px 0;
+    border: 0;
+    color: #fff;
+    transition: color .25s;
+}
+
+.admin-menu a:after {
+    position: absolute;
+    width: 100%;
+    height: .0625rem;
+    content: "";
+    top: 100%;
+    left: 0;
+    border-bottom: .0625rem solid #fff;
+    opacity: 0;
+    transition: height 0.5s,opacity 0.5s,transform 0.5s;
+    transform: translateY(-5px);
+}
+
+.admin-menu a:hover:after {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+// hide admin pages
+.admin-pages,
+.admin-page-func {
+    display: none;
+}
+
+.admin-content {
+    padding-left: 40px;
+}
+
+@media(min-width: 768px) {
+    .admin-menu {
+        transform: translateX(0);
+    }
+
+    .admin-menu-shade,
+    .admin-menu-btn { display: none; }
+
+    .admin-content {
+        width: 100%;
+        padding-left: 22%;
+        padding-right: 25px;
+    }
+}
+
+.admin-row .row  { margin-right: 0 }
+
+.dlt-partners-btn { display: block; }
+
+.file { width: 200px; }
+
+.edit-partner {
+    border-left: 1px solid #333;
+    padding-left: 5px;
+}
+
+.partner-name { margin-right: 5px; }
+
+.bottom-sheet { margin: 0 auto !important; }

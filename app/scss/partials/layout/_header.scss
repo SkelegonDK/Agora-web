@@ -1,0 +1,62 @@
+.nav-wrapper { z-index: 9999; }
+
+// .dropdown-content .login-dropdown {
+//     top: 55px;
+//     right: 0;
+//     left: initial;
+// }
+
+.nav-wrapper .brand-logo {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    left: 55px;
+    line-height: 17px;
+    color: #1c6379;
+}
+
+.header-menu-line {
+    height: 4px;
+    background: #1c6379;
+}
+
+@media(min-width: 601px) {
+    .nav-wrapper .brand-logo {
+        height: 63px;
+    }
+}
+
+@media(min-width: 993px) {
+    .nav-wrapper .brand-logo {
+        left: 10px;
+    }
+}
+
+.header-menu {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.header-menu > li  {
+    line-height: 64px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-small-text {
+    font-size: 12px;
+}
+
+nav {
+    background: #fff;
+}
+
+nav a,
+nav ul a {
+    color: #1c6379;
+}

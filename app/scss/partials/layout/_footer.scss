@@ -1,0 +1,57 @@
+footer.page-footer {
+    margin-top: 0;
+    background: #fff;
+}
+footer.page-footer .footer-copyright {
+    margin-top: 25px;
+    background: #1c6379;
+    color: #fff;
+}
+
+footer.page-footer .footer-copyright a {
+    color: #fff;
+}
+
+.page-footer { font-size: 14px; }
+
+.dev-by {
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.open-hours {
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    margin: 0;
+}
+
+.open-hours-speciel {
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.footer-top-bg {
+    height: 315px;
+    margin-bottom: 35px;
+    background: url(../img/footer-bg-s.jpg) no-repeat;
+    background-size: cover;
+}
+
+@media(min-width: 768px) {
+    .footer-top-bg {
+        height: 380px;
+        margin-bottom: 35px;
+        background: url(../img/footer-bg.jpg) no-repeat;
+    }
+}
+
+.map {
+    height: 300px;
+}
+
+@media(min-width: 601px) and (max-width: 730px) {
+    .email-link { font-size: 12px; }
+}
