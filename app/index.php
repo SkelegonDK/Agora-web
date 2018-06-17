@@ -59,17 +59,17 @@
                         <div class="event-social">
                             <a href="#">
                                 <svg class="social-icons" width="9" height="19">
-                                    <use xlink:href="/img/icon-system.svg#facebook"></use>
+                                    <use xlink:href="img/icon-system.svg#facebook"></use>
                                 </svg>
                             </a>
                             <a href="#">
                                 <svg class="social-icons" width="18" height="18">
-                                    <use xlink:href="/img/icon-system.svg#google"></use>
+                                    <use xlink:href="img/icon-system.svg#google"></use>
                                 </svg>
                             </a>
                             <a href="#">
                                 <svg class="social-icons" width="18" height="17">
-                                    <use xlink:href="/img/icon-system.svg#linkedin"></use>
+                                    <use xlink:href="img/icon-system.svg#linkedin"></use>
                                 </svg>
                             </a>
                         </div>
@@ -104,17 +104,17 @@
                         <div class="event-social">
                             <a href="#">
                                 <svg class="social-icons" width="9" height="19">
-                                    <use xlink:href="/img/icon-system.svg#facebook"></use>
+                                    <use xlink:href="img/icon-system.svg#facebook"></use>
                                 </svg>
                             </a>
                             <a href="#">
                                 <svg class="social-icons" width="18" height="18">
-                                    <use xlink:href="/img/icon-system.svg#google"></use>
+                                    <use xlink:href="img/icon-system.svg#google"></use>
                                 </svg>
                             </a>
                             <a href="#">
                                 <svg class="social-icons" width="18" height="17">
-                                    <use xlink:href="/img/icon-system.svg#linkedin"></use>
+                                    <use xlink:href="img/icon-system.svg#linkedin"></use>
                                 </svg>
                             </a>
                         </div>
@@ -149,17 +149,17 @@
                         <div class="event-social">
                             <a href="#">
                                 <svg class="social-icons" width="9" height="19">
-                                    <use xlink:href="/img/icon-system.svg#facebook"></use>
+                                    <use xlink:href="img/icon-system.svg#facebook"></use>
                                 </svg>
                             </a>
                             <a href="#">
                                 <svg class="social-icons" width="18" height="18">
-                                    <use xlink:href="/img/icon-system.svg#google"></use>
+                                    <use xlink:href="img/icon-system.svg#google"></use>
                                 </svg>
                             </a>
                             <a href="#">
                                 <svg class="social-icons" width="18" height="17">
-                                    <use xlink:href="/img/icon-system.svg#linkedin"></use>
+                                    <use xlink:href="img/icon-system.svg#linkedin"></use>
                                 </svg>
                             </a>
                         </div>
